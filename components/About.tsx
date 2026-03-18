@@ -9,7 +9,7 @@ export default function About() {
             Conheça
           </p>
           <h2 className="font-display text-5xl md:text-6xl text-brown-900 mb-4 font-semibold">
-            Sobre <span className="italic font-normal text-brown-600">mim</span>
+            Sobre a <span className="italic font-normal text-brown-600">psicóloga</span>
           </h2>
           <div className="w-12 h-px bg-brown-300 mx-auto" />
         </div>

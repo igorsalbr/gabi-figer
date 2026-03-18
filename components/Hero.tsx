@@ -27,9 +27,12 @@ export default function Hero() {
             <strong>Psicóloga em São Paulo</strong> com formação pela PUC-SP e
             especialização em <strong>Neuropsicologia pela USP</strong>.
           </p>
-          <p className="text-base text-brown-600/70 leading-relaxed mb-10 max-w-lg">
-            Atendimento <strong>online e presencial</strong> — um espaço seguro
+          <p className="text-base text-brown-600/70 leading-relaxed mb-4 max-w-lg">
+            <strong>Atendimento online e presencial</strong> — um espaço seguro
             para você se reconectar consigo mesma e encontrar novos caminhos.
+          </p>
+          <p className="text-sm text-brown-500/60 mb-10 max-w-lg">
+            Ansiedade &middot; Depressão &middot; Autoconhecimento &middot; Terapia de casal &middot; Avaliação neuropsicológica
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a

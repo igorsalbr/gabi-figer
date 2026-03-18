@@ -19,35 +19,76 @@ export const metadata: Metadata = {
   title:
     "Psicóloga Gabriela Figer | Atendimento Online e Presencial em São Paulo - CRP 06/216969",
   description:
-    "Psicóloga clínica Gabriela Figer (CRP 06/216969). Formada pela PUC-SP com pós-graduação em Neuropsicologia pela USP. Atendimento online e presencial para ansiedade, autoconhecimento, terapia de casal e avaliação neuropsicológica. Agende sua consulta.",
+    "Psicóloga clínica Gabriela Figer (CRP 06/216969). Formada pela PUC-SP com pós-graduação em Neuropsicologia pela USP. Atendimento online e presencial para ansiedade, autoconhecimento, terapia de casal e avaliação neuropsicológica em São Paulo. Agende sua consulta.",
   keywords: [
+    // Nome + profissão
+    "Gabriela Figer psicóloga",
+    "psicóloga Gabriela Figer",
+    "psicóloga CRP 06/216969",
+    // Geo: cidade
     "psicóloga São Paulo",
-    "psicóloga online",
+    "psicóloga em São Paulo",
     "psicóloga SP",
+    "psicólogo São Paulo",
+    // Geo: formato de busca
+    "psicóloga perto de mim",
+    "psicóloga online Brasil",
+    // Modalidade
+    "psicóloga online",
     "terapia online",
-    "psicóloga PUC-SP",
+    "consulta psicológica online",
+    "psicóloga atendimento online",
+    "terapia por videochamada",
+    // Especialidades clínicas
+    "terapia para ansiedade",
+    "psicóloga para ansiedade",
+    "tratamento para ansiedade São Paulo",
+    "terapia para depressão",
+    "psicóloga para depressão",
+    "terapia de casal São Paulo",
+    "psicóloga autoconhecimento",
+    "terapia para luto",
+    "psicóloga para baixa autoestima",
+    // Neuropsicologia
+    "neuropsicóloga São Paulo",
     "neuropsicóloga USP",
     "neuropsicologia São Paulo",
-    "avaliação neuropsicológica",
-    "terapia para ansiedade",
-    "psicóloga para autoconhecimento",
-    "terapia de casal São Paulo",
-    "psicóloga CRP 06/216969",
-    "Gabriela Figer psicóloga",
-    "consulta psicológica online",
+    "avaliação neuropsicológica São Paulo",
+    "avaliação neuropsicológica online",
     "reabilitação cognitiva",
+    // Abordagem
     "fenomenologia existencial",
     "psicanálise São Paulo",
+    "psicóloga fenomenológica",
+    // Formação (autoridade)
+    "psicóloga PUC-SP",
+    "psicóloga formada PUC",
+    "neuropsicóloga formada USP",
+    // Long-tail / intenção de busca
+    "como funciona terapia online",
+    "primeira consulta psicóloga",
+    "quanto custa psicólogo São Paulo",
+    "preciso de psicóloga",
+    "agendar psicóloga online",
+    "psicóloga que atende online",
   ],
   authors: [{ name: "Gabriela Figer" }],
   creator: "Gabriela Figer",
+  publisher: "Gabriela Figer - Psicóloga CRP 06/216969",
   openGraph: {
-    title: "Psicóloga Gabriela Figer | Atendimento Online e Presencial - SP",
+    title: "Psicóloga Gabriela Figer | Atendimento Online e Presencial em São Paulo",
     description:
-      "Psicóloga clínica formada pela PUC-SP com pós em Neuropsicologia pela USP. Atendimento acolhedor para ansiedade, autoconhecimento e avaliação neuropsicológica.",
+      "Psicóloga clínica formada pela PUC-SP com pós em Neuropsicologia pela USP. Atendimento acolhedor para ansiedade, depressão, autoconhecimento e avaliação neuropsicológica. Agende online.",
     type: "website",
     locale: "pt_BR",
     siteName: "Psicóloga Gabriela Figer",
+    url: "https://gabrielafiger.com.br",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Psicóloga Gabriela Figer | São Paulo",
+    description:
+      "Psicóloga clínica - PUC-SP | Neuropsicologia - USP. Atendimento online e presencial.",
   },
   robots: {
     index: true,
@@ -63,19 +104,42 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://gabrielafiger.com.br",
   },
+  category: "health",
 };
 
-const jsonLd = {
+// Schema 1: MedicalBusiness (mais específico que ProfessionalService)
+const medicalBusinessSchema = {
   "@context": "https://schema.org",
-  "@type": "ProfessionalService",
+  "@type": "MedicalBusiness",
+  "@id": "https://gabrielafiger.com.br/#business",
   name: "Psicóloga Gabriela Figer",
   description:
-    "Psicóloga clínica com formação pela PUC-SP e pós-graduação em Neuropsicologia pela USP. Atendimento online e presencial para ansiedade, autoconhecimento, neuropsicologia e terapia de casal.",
+    "Consultório de psicologia clínica e neuropsicologia em São Paulo. Atendimento online e presencial para ansiedade, depressão, autoconhecimento, terapia de casal e avaliação neuropsicológica.",
   url: "https://gabrielafiger.com.br",
   telephone: "+5511987788966",
   email: "gabriela.figer@gmail.com",
   priceRange: "$$",
-  image: "https://gabrielafiger.com.br/og-image.jpg",
+  image: "https://gabrielafiger.com.br/gabi.jpeg",
+  currenciesAccepted: "BRL",
+  paymentAccepted: "Dinheiro, PIX, Cartão de Crédito",
+  medicalSpecialty: ["Psychiatry"],
+  availableService: [
+    {
+      "@type": "MedicalTherapy",
+      name: "Psicoterapia Individual",
+      description: "Atendimento psicológico individual online e presencial para ansiedade, depressão, autoconhecimento e desenvolvimento pessoal.",
+    },
+    {
+      "@type": "MedicalTherapy",
+      name: "Terapia de Casal",
+      description: "Acompanhamento terapêutico para casais com foco em comunicação, vínculos afetivos e resolução de conflitos.",
+    },
+    {
+      "@type": "MedicalTest",
+      name: "Avaliação Neuropsicológica",
+      description: "Avaliação das funções cognitivas como memória, atenção, linguagem e funções executivas para diagnóstico e reabilitação.",
+    },
+  ],
   address: {
     "@type": "PostalAddress",
     addressLocality: "São Paulo",
@@ -87,21 +151,62 @@ const jsonLd = {
     latitude: -23.5505,
     longitude: -46.6333,
   },
+  areaServed: [
+    { "@type": "City", name: "São Paulo" },
+    { "@type": "State", name: "São Paulo" },
+    { "@type": "Country", name: "Brasil" },
+  ],
+  openingHoursSpecification: [
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      opens: "08:00",
+      closes: "20:00",
+    },
+  ],
+  sameAs: [
+    "https://instagram.com/psi.gabrielafiger",
+    "https://linktr.ee/psi.gabrielafiger",
+  ],
+};
+
+// Schema 2: Person (profissional de saúde)
+const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://gabrielafiger.com.br/#person",
+  name: "Gabriela Figer",
+  jobTitle: "Psicóloga Clínica",
+  description:
+    "Psicóloga clínica em São Paulo (CRP 06/216969), formada pela PUC-SP com pós-graduação em Neuropsicologia pela USP. Especialista em ansiedade, autoconhecimento e avaliação neuropsicológica.",
+  url: "https://gabrielafiger.com.br",
+  image: "https://gabrielafiger.com.br/gabi.jpeg",
+  telephone: "+5511987788966",
+  email: "gabriela.figer@gmail.com",
+  worksFor: {
+    "@id": "https://gabrielafiger.com.br/#business",
+  },
   hasCredential: [
     {
       "@type": "EducationalOccupationalCredential",
       credentialCategory: "Professional License",
       name: "CRP 06/216969",
+      recognizedBy: {
+        "@type": "Organization",
+        name: "Conselho Regional de Psicologia de São Paulo",
+      },
     },
   ],
   alumniOf: [
     {
       "@type": "CollegeOrUniversity",
-      name: "Pontifícia Universidade Católica de São Paulo (PUC-SP)",
+      name: "Pontifícia Universidade Católica de São Paulo",
+      alternateName: "PUC-SP",
     },
     {
       "@type": "CollegeOrUniversity",
-      name: "Universidade de São Paulo (USP)",
+      name: "Universidade de São Paulo",
+      alternateName: "USP",
     },
   ],
   knowsAbout: [
@@ -110,22 +215,47 @@ const jsonLd = {
     "Avaliação Neuropsicológica",
     "Reabilitação Cognitiva",
     "Terapia para Ansiedade",
+    "Terapia para Depressão",
     "Fenomenologia Existencial",
     "Psicanálise",
     "Terapia de Casal",
     "Autoconhecimento",
+    "Terapia Online",
   ],
-  openingHoursSpecification: {
-    "@type": "OpeningHoursSpecification",
-    dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-    opens: "08:00",
-    closes: "20:00",
-  },
   sameAs: [
     "https://instagram.com/psi.gabrielafiger",
     "https://linktr.ee/psi.gabrielafiger",
   ],
 };
+
+// Schema 3: BreadcrumbList
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Início",
+      item: "https://gabrielafiger.com.br",
+    },
+  ],
+};
+
+// Schema 4: WebSite (habilita sitelinks no Google)
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "Psicóloga Gabriela Figer",
+  url: "https://gabrielafiger.com.br",
+  description: "Site oficial da psicóloga Gabriela Figer - Atendimento online e presencial em São Paulo.",
+  inLanguage: "pt-BR",
+  publisher: {
+    "@id": "https://gabrielafiger.com.br/#person",
+  },
+};
+
+const allSchemas = [medicalBusinessSchema, personSchema, breadcrumbSchema, websiteSchema];
 
 export default function RootLayout({
   children,
@@ -135,10 +265,20 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className={`${cormorant.variable} ${inter.variable}`}>
       <head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
+        <meta name="geo.region" content="BR-SP" />
+        <meta name="geo.placename" content="São Paulo" />
+        <meta name="geo.position" content="-23.5505;-46.6333" />
+        <meta name="ICBM" content="-23.5505, -46.6333" />
+        <link rel="me" href="https://instagram.com/psi.gabrielafiger" />
+        <link rel="alternate" type="text/plain" href="https://gabrielafiger.com.br/llms.txt" title="LLM Summary" />
+        <link rel="alternate" type="text/plain" href="https://gabrielafiger.com.br/llms-full.txt" title="LLM Full Content" />
+        {allSchemas.map((schema, i) => (
+          <script
+            key={i}
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+          />
+        ))}
       </head>
       <body className="antialiased">{children}</body>
     </html>
