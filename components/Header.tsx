@@ -7,6 +7,7 @@ const links = [
   { href: "#especialidades", label: "Especialidades" },
   { href: "#formacao", label: "Formação" },
   { href: "#depoimentos", label: "Depoimentos" },
+  { href: "#faq", label: "Dúvidas" },
   { href: "#contato", label: "Contato" },
 ];
 
@@ -24,22 +25,24 @@ export default function Header() {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-white/90 backdrop-blur-md shadow-sm"
+          ? "bg-cream-50/95 backdrop-blur-md shadow-sm"
           : "bg-transparent"
       }`}
     >
-      <nav className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-        <a href="#" className="font-serif text-xl text-sage-800">
+      <nav
+        className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between"
+        aria-label="Navegação principal"
+      >
+        <a href="#" className="font-display text-2xl font-semibold text-brown-800 tracking-wide">
           Gabriela Figer
         </a>
 
-        {/* Desktop nav */}
         <ul className="hidden md:flex items-center gap-8">
           {links.map((link) => (
             <li key={link.href}>
               <a
                 href={link.href}
-                className="text-sm text-sage-600 hover:text-sage-800 transition-colors duration-200"
+                className="text-sm text-brown-600 hover:text-brown-800 transition-colors duration-200 tracking-wide uppercase"
               >
                 {link.label}
               </a>
@@ -47,11 +50,11 @@ export default function Header() {
           ))}
         </ul>
 
-        {/* Mobile hamburger */}
         <button
-          className="md:hidden text-sage-700"
+          className="md:hidden text-brown-700"
           onClick={() => setMenuOpen(!menuOpen)}
-          aria-label="Menu"
+          aria-label="Abrir menu de navegação"
+          aria-expanded={menuOpen}
         >
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             {menuOpen ? (
@@ -63,16 +66,15 @@ export default function Header() {
         </button>
       </nav>
 
-      {/* Mobile menu */}
       {menuOpen && (
-        <div className="md:hidden bg-white/95 backdrop-blur-md border-t border-sage-100">
+        <div className="md:hidden bg-cream-50/98 backdrop-blur-md border-t border-brown-100">
           <ul className="flex flex-col p-6 gap-4">
             {links.map((link) => (
               <li key={link.href}>
                 <a
                   href={link.href}
                   onClick={() => setMenuOpen(false)}
-                  className="text-sage-700 hover:text-sage-900 transition-colors"
+                  className="text-brown-700 hover:text-brown-900 transition-colors font-display text-lg"
                 >
                   {link.label}
                 </a>
