@@ -52,7 +52,7 @@ export default function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
-    <section id="faq" className="py-24 bg-cream-100" aria-label="Perguntas frequentes">
+    <section id="faq" className="py-16 md:py-24 bg-cream-100" aria-label="Perguntas frequentes">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
@@ -62,7 +62,7 @@ export default function FAQ() {
           <p className="text-brown-400 tracking-[0.2em] uppercase text-xs mb-4">
             Tire suas dúvidas
           </p>
-          <h2 className="font-display text-5xl md:text-6xl text-brown-900 mb-4 font-semibold">
+          <h2 className="font-display text-4xl sm:text-5xl md:text-6xl text-brown-900 mb-4 font-semibold">
             Perguntas{" "}
             <span className="italic font-normal text-brown-600">frequentes</span>
           </h2>

@@ -18,13 +18,13 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section id="depoimentos" className="py-24 bg-cream-50" aria-label="Depoimentos de pacientes">
+    <section id="depoimentos" className="py-16 md:py-24 bg-cream-50" aria-label="Depoimentos de pacientes">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
           <p className="text-brown-400 tracking-[0.2em] uppercase text-xs mb-4">
             Relatos
           </p>
-          <h2 className="font-display text-5xl md:text-6xl text-brown-900 mb-4 font-semibold">
+          <h2 className="font-display text-4xl sm:text-5xl md:text-6xl text-brown-900 mb-4 font-semibold">
             O que dizem sobre a{" "}
             <span className="italic font-normal text-brown-600">terapia</span>
           </h2>
@@ -35,7 +35,7 @@ export default function Testimonials() {
           {testimonials.map((item) => (
             <article
               key={item.author}
-              className="bg-cream-100 rounded-2xl p-8 border border-brown-100"
+              className="bg-cream-100 rounded-2xl p-6 sm:p-8 border border-brown-100"
             >
               <span className="font-display text-6xl text-brown-200 leading-none block mb-4">&ldquo;</span>
               <blockquote>

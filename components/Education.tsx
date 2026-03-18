@@ -17,13 +17,13 @@ const timeline = [
 
 export default function Education() {
   return (
-    <section id="formacao" className="py-24 bg-cream-100" aria-label="Formação acadêmica">
+    <section id="formacao" className="py-16 md:py-24 bg-cream-100" aria-label="Formação acadêmica">
       <div className="max-w-4xl mx-auto px-6">
         <div className="text-center mb-16">
           <p className="text-brown-400 tracking-[0.2em] uppercase text-xs mb-4">
             Trajetória
           </p>
-          <h2 className="font-display text-5xl md:text-6xl text-brown-900 mb-4 font-semibold">
+          <h2 className="font-display text-4xl sm:text-5xl md:text-6xl text-brown-900 mb-4 font-semibold">
             Formação{" "}
             <span className="italic font-normal text-brown-600">acadêmica</span>
           </h2>

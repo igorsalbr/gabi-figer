@@ -9,14 +9,14 @@ const episodes = [
 
 export default function CinePsique() {
   return (
-    <section className="py-24 bg-brown-900 text-cream-100" aria-label="Luz Câmera Psique - Cinema e Psicologia">
+    <section className="py-16 md:py-24 bg-brown-900 text-cream-100" aria-label="Luz Câmera Psique - Cinema e Psicologia">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="grid md:grid-cols-2 gap-16 items-center">
+        <div className="grid md:grid-cols-2 gap-10 md:gap-16 items-center">
           <div>
             <p className="text-brown-400 tracking-[0.2em] uppercase text-xs mb-4">
               Conteúdo
             </p>
-            <h2 className="font-display text-5xl md:text-6xl text-cream-100 mb-6 font-bold leading-[0.95]">
+            <h2 className="font-display text-4xl sm:text-5xl md:text-6xl text-cream-100 mb-6 font-bold leading-[0.95]">
               Luz, Câmera,
               <br />
               <span className="italic font-normal text-cream-300">Psiquê</span>
@@ -44,11 +44,11 @@ export default function CinePsique() {
             </a>
           </div>
 
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-2 gap-3 sm:gap-4">
             {episodes.map((ep) => (
               <div
                 key={ep.title}
-                className="bg-brown-800/80 rounded-xl p-5 border border-brown-700/50 hover:border-brown-600/50 transition-colors"
+                className="bg-brown-800/80 rounded-xl p-4 sm:p-5 border border-brown-700/50 hover:border-brown-600/50 hover:bg-brown-800 transition-all duration-300"
               >
                 <h3 className="font-display text-xl font-bold text-cream-100 mb-1 leading-tight">
                   {ep.title}

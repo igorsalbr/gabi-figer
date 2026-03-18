@@ -8,6 +8,7 @@ import CinePsique from "@/components/CinePsique";
 import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
 import CTA from "@/components/CTA";
+import CoffeeScroll from "@/components/CoffeeScroll";
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
         <WaveDivider from="#f0e4d5" to="#3e2d1f" />
       </main>
       <CTA />
+      <CoffeeScroll />
     </>
   );
 }

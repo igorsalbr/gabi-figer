@@ -1,3 +1,5 @@
+"use client";
+
 const specialties = [
   {
     title: "Terapia para Ansiedade",
@@ -31,11 +33,19 @@ const specialties = [
   },
 ];
 
+function handleMouseMove(e: React.MouseEvent<HTMLElement>) {
+  const rect = e.currentTarget.getBoundingClientRect();
+  const x = ((e.clientX - rect.left) / rect.width) * 100;
+  const y = ((e.clientY - rect.top) / rect.height) * 100;
+  e.currentTarget.style.setProperty("--glow-x", `${x}%`);
+  e.currentTarget.style.setProperty("--glow-y", `${y}%`);
+}
+
 export default function Specialties() {
   return (
     <section
       id="especialidades"
-      className="py-24 bg-brown-800 text-cream-100"
+      className="py-16 md:py-24 bg-brown-800 text-cream-100"
       aria-label="Áreas de atuação da psicóloga"
     >
       <div className="max-w-6xl mx-auto px-6">
@@ -43,7 +53,7 @@ export default function Specialties() {
           <p className="text-brown-300 tracking-[0.2em] uppercase text-xs mb-4">
             Como posso ajudar
           </p>
-          <h2 className="font-display text-5xl md:text-6xl text-cream-100 mb-4 font-semibold">
+          <h2 className="font-display text-4xl sm:text-5xl md:text-6xl text-cream-100 mb-4 font-semibold">
             Áreas de{" "}
             <span className="italic font-normal text-cream-300">atuação</span>
           </h2>
@@ -58,7 +68,8 @@ export default function Specialties() {
           {specialties.map((item, index) => (
             <article
               key={item.title}
-              className="group relative bg-brown-700/50 backdrop-blur-sm rounded-2xl p-8 hover:bg-brown-700/80 transition-all duration-300 border border-brown-600/30"
+              onMouseMove={handleMouseMove}
+              className="card-glow group relative bg-brown-700/50 backdrop-blur-sm rounded-2xl p-8 transition-all duration-300 border border-brown-600/30 hover:border-brown-500/50"
             >
               <span className="font-display text-5xl text-brown-500/30 absolute top-4 right-6 font-bold">
                 {String(index + 1).padStart(2, "0")}

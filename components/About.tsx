@@ -2,13 +2,13 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section id="sobre" className="py-24 bg-cream-50" aria-label="Sobre a psicóloga Gabriela Figer">
+    <section id="sobre" className="py-16 md:py-24 bg-cream-50" aria-label="Sobre a psicóloga Gabriela Figer">
       <div className="max-w-5xl mx-auto px-6">
         <div className="text-center mb-16">
           <p className="text-brown-400 tracking-[0.2em] uppercase text-xs mb-4">
             Conheça
           </p>
-          <h2 className="font-display text-5xl md:text-6xl text-brown-900 mb-4 font-semibold">
+          <h2 className="font-display text-4xl sm:text-5xl md:text-6xl text-brown-900 mb-4 font-semibold">
             Sobre a <span className="italic font-normal text-brown-600">psicóloga</span>
           </h2>
           <div className="w-12 h-px bg-brown-300 mx-auto" />
@@ -17,7 +17,7 @@ export default function About() {
         <div className="grid md:grid-cols-5 gap-16 items-center">
           <div className="md:col-span-2 flex justify-center">
             <div className="relative">
-              <div className="absolute -inset-3 rounded-full border border-brown-200/50 border-dashed" />
+              <div className="absolute -inset-3 rounded-full border border-brown-200/50 border-dashed ring-spin" />
               <div className="w-52 h-52 rounded-full overflow-hidden shadow-lg">
                 <Image
                   src="/gabi.jpeg"
