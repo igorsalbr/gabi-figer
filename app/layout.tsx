@@ -72,6 +72,13 @@ export const metadata: Metadata = {
     "agendar psicóloga online",
     "psicóloga que atende online",
   ],
+  icons: {
+    icon: [
+      { url: "/favicon-32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-16.png", sizes: "16x16", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
   authors: [{ name: "Gabriela Figer" }],
   creator: "Gabriela Figer",
   publisher: "Gabriela Figer - Psicóloga CRP 06/216969",
