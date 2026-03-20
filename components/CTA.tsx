@@ -20,7 +20,7 @@ export default function CTA() {
           <span className="italic font-normal text-cream-300">conversar?</span>
         </h2>
         <p className="text-cream-300/80 text-lg mb-12 max-w-2xl mx-auto leading-relaxed">
-          Agende sua <strong>consulta psicológica online ou presencial</strong>{" "}
+          Agende sua <strong>consulta psicológica</strong>{" "}
           e comece sua jornada de autoconhecimento e transformação.
         </p>
 

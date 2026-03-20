@@ -35,8 +35,9 @@ export default function Hero() {
             </p>
             <p className="text-sm text-brown-600/60 leading-relaxed mb-4 max-w-lg">
               Orientada pela Fenomenologia e Psicanálise, atendo adolescentes e
-              adultos que buscam escuta atenta e acolhimento. Minha missão é
-              caminhar ao seu lado, ajudando a viver com mais leveza.
+              adultos que buscam escuta atenta e acolhimento. Você não precisa
+              carregar tudo sozinho. Estou aqui para caminhar ao seu lado em
+              direção a uma vida com mais leveza.
             </p>
             <p className="text-sm text-brown-500/60 mb-10 max-w-lg">
               Ansiedade &middot; Depressão &middot; Autoconhecimento &middot; Relacionamentos &middot; Avaliação neuropsicológica
@@ -63,12 +64,12 @@ export default function Hero() {
         <div className="order-1 md:order-2 flex justify-center hero-photo-enter">
           <div className="relative">
             <div className="absolute -inset-4 rounded-full border-2 border-brown-200/50 border-dashed ring-spin" />
-            <div className="w-52 h-52 sm:w-64 sm:h-64 md:w-80 md:h-80 rounded-full overflow-hidden shadow-2xl shadow-brown-200/30">
+            <div className="relative w-52 h-52 sm:w-64 sm:h-64 md:w-80 md:h-80 rounded-full overflow-hidden shadow-2xl shadow-brown-200/30 bg-[#f0ece6]">
               <Image
-                src="/gabi2.jpeg"
+                src="/gabi_gibi.png"
                 alt="Psicóloga Gabriela Figer - Atendimento em São Paulo"
-                width={320}
-                height={320}
+                width={640}
+                height={640}
                 className="w-full h-full object-cover object-[center_25%]"
                 priority
               />

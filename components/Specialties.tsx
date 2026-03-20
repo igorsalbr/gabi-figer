@@ -29,7 +29,7 @@ const specialties = [
   {
     title: "Autoestima",
     description:
-      "Trabalho terapêutico para fortalecer a relação consigo mesma, reconhecer seu valor e desenvolver uma autoimagem mais saudável.",
+      "Trabalho terapêutico para fortalecer a relação consigo mesmo(a), reconhecer seu valor e desenvolver uma autoimagem mais saudável.",
   },
   {
     title: "Sentimento de Vazio",
