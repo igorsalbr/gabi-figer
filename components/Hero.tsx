@@ -71,7 +71,7 @@ export default function Hero() {
                 alt="Psicóloga Gabriela Figer - Atendimento em São Paulo"
                 width={640}
                 height={640}
-                className="w-full h-full object-cover object-[center_25%]"
+                className="w-full h-full object-cover object-[48%_25%]"
                 priority
               />
             </div>
