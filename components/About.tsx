@@ -21,11 +21,11 @@ export default function About() {
               <div className="absolute -inset-3 rounded-full border border-brown-200/50 border-dashed ring-spin" />
               <div className="w-52 h-52 rounded-full overflow-hidden shadow-lg">
                 <Image
-                  src="/gabi.jpeg"
+                  src="/gabi2.jpeg"
                   alt="Gabriela Figer, psicóloga clínica em São Paulo"
                   width={208}
                   height={208}
-                  className="w-full h-full object-cover scale-[1.35]"
+                  className="w-full h-full object-cover object-[center_25%]"
                 />
               </div>
             </div>

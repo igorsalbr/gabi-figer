@@ -65,11 +65,11 @@ export default function Hero() {
             <div className="absolute -inset-4 rounded-full border-2 border-brown-200/50 border-dashed ring-spin" />
             <div className="w-52 h-52 sm:w-64 sm:h-64 md:w-80 md:h-80 rounded-full overflow-hidden shadow-2xl shadow-brown-200/30">
               <Image
-                src="/gabi.jpeg"
+                src="/gabi2.jpeg"
                 alt="Psicóloga Gabriela Figer - Atendimento em São Paulo"
                 width={320}
                 height={320}
-                className="w-full h-full object-cover scale-[1.35]"
+                className="w-full h-full object-cover object-[center_25%]"
                 priority
               />
             </div>
