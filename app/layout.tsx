@@ -6,13 +6,13 @@ const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
   variable: "--font-display",
-  display: "swap",
+  display: "swap"
 });
 
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-sans",
-  display: "swap",
+  display: "swap"
 });
 
 export const metadata: Metadata = {
@@ -76,32 +76,33 @@ export const metadata: Metadata = {
     "quanto custa psicólogo São Paulo",
     "preciso de psicóloga",
     "agendar psicóloga online",
-    "psicóloga que atende online",
+    "psicóloga que atende online"
   ],
   icons: {
     icon: [
       { url: "/favicon-32.png", sizes: "32x32", type: "image/png" },
-      { url: "/favicon-16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-16.png", sizes: "16x16", type: "image/png" }
     ],
-    apple: "/apple-touch-icon.png",
+    apple: "/apple-touch-icon.png"
   },
   authors: [{ name: "Gabriela Figer" }],
   creator: "Gabriela Figer",
   publisher: "Gabriela Figer - Psicóloga CRP 06/216969",
   openGraph: {
-    title: "Psicóloga Gabriela Figer | Atendimento Online e Presencial em São Paulo",
+    title:
+      "Psicóloga Gabriela Figer | Atendimento Online e Presencial em São Paulo",
     description:
       "Psicóloga clínica formada pela PUC-SP e pós-graduanda em Neuropsicologia pela USP. Atendimento online acolhedor para ansiedade, depressão, autoconhecimento e avaliação neuropsicológica. Agende agora.",
     type: "website",
     locale: "pt_BR",
     siteName: "Psicóloga Gabriela Figer",
-    url: "https://gabrielafiger.com.br",
+    url: "https://gabrielafiger.com.br"
   },
   twitter: {
     card: "summary_large_image",
     title: "Psicóloga Gabriela Figer | São Paulo",
     description:
-      "Psicóloga clínica - PUC-SP | Neuropsicologia - USP. Atendimento online e presencial.",
+      "Psicóloga clínica - PUC-SP | Neuropsicologia - USP. Atendimento online e presencial."
   },
   robots: {
     index: true,
@@ -111,13 +112,13 @@ export const metadata: Metadata = {
       follow: true,
       "max-video-preview": -1,
       "max-image-preview": "large",
-      "max-snippet": -1,
-    },
+      "max-snippet": -1
+    }
   },
   alternates: {
-    canonical: "https://gabrielafiger.com.br",
+    canonical: "https://gabrielafiger.com.br"
   },
-  category: "health",
+  category: "health"
 };
 
 // Schema 1: MedicalBusiness (mais específico que ProfessionalService)
@@ -132,7 +133,7 @@ const medicalBusinessSchema = {
   telephone: "+5511987788966",
   email: "gabriela.figer@gmail.com",
   priceRange: "$$",
-  image: "https://gabrielafiger.com.br/gabi.jpeg",
+  image: "https://gabrielafiger.com.br/gabi-final.png",
   currenciesAccepted: "BRL",
   paymentAccepted: "Dinheiro, PIX, Cartão de Crédito",
   medicalSpecialty: ["Psychiatry"],
@@ -140,47 +141,50 @@ const medicalBusinessSchema = {
     {
       "@type": "MedicalTherapy",
       name: "Psicoterapia Individual",
-      description: "Atendimento psicológico individual online e presencial para ansiedade, depressão, autoconhecimento e desenvolvimento pessoal.",
+      description:
+        "Atendimento psicológico individual online e presencial para ansiedade, depressão, autoconhecimento e desenvolvimento pessoal."
     },
     {
       "@type": "MedicalTherapy",
       name: "Terapia para Relacionamentos",
-      description: "Acompanhamento terapêutico para quem deseja compreender e melhorar seus vínculos afetivos e dinâmicas relacionais.",
+      description:
+        "Acompanhamento terapêutico para quem deseja compreender e melhorar seus vínculos afetivos e dinâmicas relacionais."
     },
     {
       "@type": "MedicalTest",
       name: "Avaliação Neuropsicológica",
-      description: "Avaliação das funções cognitivas como memória, atenção, linguagem e funções executivas para diagnóstico e reabilitação.",
-    },
+      description:
+        "Avaliação das funções cognitivas como memória, atenção, linguagem e funções executivas para diagnóstico e reabilitação."
+    }
   ],
   address: {
     "@type": "PostalAddress",
     addressLocality: "São Paulo",
     addressRegion: "SP",
-    addressCountry: "BR",
+    addressCountry: "BR"
   },
   geo: {
     "@type": "GeoCoordinates",
     latitude: -23.5505,
-    longitude: -46.6333,
+    longitude: -46.6333
   },
   areaServed: [
     { "@type": "City", name: "São Paulo" },
     { "@type": "State", name: "São Paulo" },
-    { "@type": "Country", name: "Brasil" },
+    { "@type": "Country", name: "Brasil" }
   ],
   openingHoursSpecification: [
     {
       "@type": "OpeningHoursSpecification",
       dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
       opens: "08:00",
-      closes: "20:00",
-    },
+      closes: "20:00"
+    }
   ],
   sameAs: [
     "https://instagram.com/psi.gabrielafiger",
-    "https://linktr.ee/psi.gabrielafiger",
-  ],
+    "https://linktr.ee/psi.gabrielafiger"
+  ]
 };
 
 // Schema 2: Person (profissional de saúde)
@@ -193,11 +197,11 @@ const personSchema = {
   description:
     "Psicóloga clínica em São Paulo (CRP 06/216969), formada pela PUC-SP com pós-graduação em Neuropsicologia pela USP. Especialista em ansiedade, autoconhecimento e avaliação neuropsicológica.",
   url: "https://gabrielafiger.com.br",
-  image: "https://gabrielafiger.com.br/gabi.jpeg",
+  image: "https://gabrielafiger.com.br/gabi-final.png",
   telephone: "+5511987788966",
   email: "gabriela.figer@gmail.com",
   worksFor: {
-    "@id": "https://gabrielafiger.com.br/#business",
+    "@id": "https://gabrielafiger.com.br/#business"
   },
   hasCredential: [
     {
@@ -206,21 +210,21 @@ const personSchema = {
       name: "CRP 06/216969",
       recognizedBy: {
         "@type": "Organization",
-        name: "Conselho Regional de Psicologia de São Paulo",
-      },
-    },
+        name: "Conselho Regional de Psicologia de São Paulo"
+      }
+    }
   ],
   alumniOf: [
     {
       "@type": "CollegeOrUniversity",
       name: "Pontifícia Universidade Católica de São Paulo",
-      alternateName: "PUC-SP",
+      alternateName: "PUC-SP"
     },
     {
       "@type": "CollegeOrUniversity",
       name: "Universidade de São Paulo",
-      alternateName: "USP",
-    },
+      alternateName: "USP"
+    }
   ],
   knowsAbout: [
     "Psicologia Clínica",
@@ -236,12 +240,12 @@ const personSchema = {
     "Autoestima",
     "Regulação Emocional",
     "Traumas",
-    "Terapia Online",
+    "Terapia Online"
   ],
   sameAs: [
     "https://instagram.com/psi.gabrielafiger",
-    "https://linktr.ee/psi.gabrielafiger",
-  ],
+    "https://linktr.ee/psi.gabrielafiger"
+  ]
 };
 
 // Schema 3: BreadcrumbList
@@ -253,9 +257,9 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Início",
-      item: "https://gabrielafiger.com.br",
-    },
-  ],
+      item: "https://gabrielafiger.com.br"
+    }
+  ]
 };
 
 // Schema 4: WebSite (habilita sitelinks no Google)
@@ -264,17 +268,23 @@ const websiteSchema = {
   "@type": "WebSite",
   name: "Psicóloga Gabriela Figer",
   url: "https://gabrielafiger.com.br",
-  description: "Site oficial da psicóloga Gabriela Figer - Atendimento online e presencial em São Paulo.",
+  description:
+    "Site oficial da psicóloga Gabriela Figer - Atendimento online e presencial em São Paulo.",
   inLanguage: "pt-BR",
   publisher: {
-    "@id": "https://gabrielafiger.com.br/#person",
-  },
+    "@id": "https://gabrielafiger.com.br/#person"
+  }
 };
 
-const allSchemas = [medicalBusinessSchema, personSchema, breadcrumbSchema, websiteSchema];
+const allSchemas = [
+  medicalBusinessSchema,
+  personSchema,
+  breadcrumbSchema,
+  websiteSchema
+];
 
 export default function RootLayout({
-  children,
+  children
 }: {
   children: React.ReactNode;
 }) {
@@ -286,8 +296,18 @@ export default function RootLayout({
         <meta name="geo.position" content="-23.5505;-46.6333" />
         <meta name="ICBM" content="-23.5505, -46.6333" />
         <link rel="me" href="https://instagram.com/psi.gabrielafiger" />
-        <link rel="alternate" type="text/plain" href="https://gabrielafiger.com.br/llms.txt" title="LLM Summary" />
-        <link rel="alternate" type="text/plain" href="https://gabrielafiger.com.br/llms-full.txt" title="LLM Full Content" />
+        <link
+          rel="alternate"
+          type="text/plain"
+          href="https://gabrielafiger.com.br/llms.txt"
+          title="LLM Summary"
+        />
+        <link
+          rel="alternate"
+          type="text/plain"
+          href="https://gabrielafiger.com.br/llms-full.txt"
+          title="LLM Full Content"
+        />
         {allSchemas.map((schema, i) => (
           <script
             key={i}

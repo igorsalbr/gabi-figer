@@ -2,7 +2,11 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section id="sobre" className="py-16 md:py-24 bg-cream-50" aria-label="Sobre a psicóloga Gabriela Figer">
+    <section
+      id="sobre"
+      className="py-16 md:py-24 bg-cream-50"
+      aria-label="Sobre a psicóloga Gabriela Figer"
+    >
       <div className="max-w-5xl mx-auto px-6">
         <div className="text-center mb-16">
           <p className="text-brown-400 tracking-[0.2em] uppercase text-xs mb-4">
@@ -21,7 +25,7 @@ export default function About() {
               <div className="absolute -inset-3 rounded-full border border-brown-200/50 border-dashed ring-spin" />
               <div className="w-52 h-52 rounded-full overflow-hidden shadow-lg">
                 <Image
-                  src="/gabi2.jpeg"
+                  src="/gabi-final.png"
                   alt="Gabriela Figer, psicóloga clínica em São Paulo"
                   width={208}
                   height={208}
@@ -42,8 +46,8 @@ export default function About() {
             <p className="text-brown-700/90 leading-relaxed">
               Com uma escuta orientada pela{" "}
               <strong>fenomenologia existencial</strong> e pela{" "}
-              <strong>psicanálise</strong>, acredito que o encontro terapêutico é
-              onde as coisas podem, finalmente, ser ditas, sentidas e
+              <strong>psicanálise</strong>, acredito que o encontro terapêutico
+              é onde as coisas podem, finalmente, ser ditas, sentidas e
               transformadas — sem julgamentos e no seu ritmo.
             </p>
             <p className="text-brown-700/90 leading-relaxed">

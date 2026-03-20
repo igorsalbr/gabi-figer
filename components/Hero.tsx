@@ -30,8 +30,8 @@ export default function Hero() {
               pós-graduanda em <strong>Neuropsicologia pela USP</strong>.
             </p>
             <p className="text-base text-brown-600/70 leading-relaxed mb-4 max-w-lg">
-              <strong>Atendimento online</strong> — um espaço seguro para você se
-              expressar e encontrar novos sentidos.
+              <strong>Atendimento online</strong> — um espaço seguro para você
+              se expressar e encontrar novos sentidos.
             </p>
             <p className="text-sm text-brown-600/60 leading-relaxed mb-4 max-w-lg">
               Orientada pela Fenomenologia e Psicanálise, atendo adolescentes e
@@ -40,7 +40,8 @@ export default function Hero() {
               direção a uma vida com mais leveza.
             </p>
             <p className="text-sm text-brown-500/60 mb-10 max-w-lg">
-              Ansiedade &middot; Depressão &middot; Autoconhecimento &middot; Relacionamentos &middot; Avaliação neuropsicológica
+              Ansiedade &middot; Depressão &middot; Autoconhecimento &middot;
+              Relacionamentos &middot; Avaliação neuropsicológica
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -66,7 +67,7 @@ export default function Hero() {
             <div className="absolute -inset-4 rounded-full border-2 border-brown-200/50 border-dashed ring-spin" />
             <div className="relative w-52 h-52 sm:w-64 sm:h-64 md:w-80 md:h-80 rounded-full overflow-hidden shadow-2xl shadow-brown-200/30 bg-[#f0ece6]">
               <Image
-                src="/gabi_gibi.png"
+                src="/gabi_final.png"
                 alt="Psicóloga Gabriela Figer - Atendimento em São Paulo"
                 width={640}
                 height={640}
