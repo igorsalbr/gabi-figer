@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   title:
     "Psicóloga Gabriela Figer | Atendimento Online e Presencial em São Paulo - CRP 06/216969",
   description:
-    "Psicóloga clínica Gabriela Figer (CRP 06/216969). Formada pela PUC-SP com pós-graduação em Neuropsicologia pela USP. Atendimento online e presencial para ansiedade, autoconhecimento, terapia de casal e avaliação neuropsicológica em São Paulo. Agende sua consulta.",
+    "Psicóloga clínica Gabriela Figer (CRP 06/216969). Formada pela PUC-SP e pós-graduanda em Neuropsicologia pela USP. Atendimento online para ansiedade, depressão, autoconhecimento, relacionamentos e avaliação neuropsicológica. Agende sua consulta.",
   keywords: [
     // Nome + profissão
     "Gabriela Figer psicóloga",
@@ -45,10 +45,16 @@ export const metadata: Metadata = {
     "tratamento para ansiedade São Paulo",
     "terapia para depressão",
     "psicóloga para depressão",
-    "terapia de casal São Paulo",
     "psicóloga autoconhecimento",
     "terapia para luto",
     "psicóloga para baixa autoestima",
+    "psicóloga para autoestima",
+    "problemas de relacionamento psicóloga",
+    "questões profissionais psicóloga",
+    "sentimento de vazio terapia",
+    "falta de propósito psicóloga",
+    "terapia para traumas",
+    "regulação emocional psicóloga",
     // Neuropsicologia
     "neuropsicóloga São Paulo",
     "neuropsicóloga USP",
@@ -85,7 +91,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Psicóloga Gabriela Figer | Atendimento Online e Presencial em São Paulo",
     description:
-      "Psicóloga clínica formada pela PUC-SP com pós em Neuropsicologia pela USP. Atendimento acolhedor para ansiedade, depressão, autoconhecimento e avaliação neuropsicológica. Agende online.",
+      "Psicóloga clínica formada pela PUC-SP e pós-graduanda em Neuropsicologia pela USP. Atendimento online acolhedor para ansiedade, depressão, autoconhecimento e avaliação neuropsicológica. Agende agora.",
     type: "website",
     locale: "pt_BR",
     siteName: "Psicóloga Gabriela Figer",
@@ -121,7 +127,7 @@ const medicalBusinessSchema = {
   "@id": "https://gabrielafiger.com.br/#business",
   name: "Psicóloga Gabriela Figer",
   description:
-    "Consultório de psicologia clínica e neuropsicologia em São Paulo. Atendimento online e presencial para ansiedade, depressão, autoconhecimento, terapia de casal e avaliação neuropsicológica.",
+    "Consultório de psicologia clínica e neuropsicologia em São Paulo. Atendimento online para ansiedade, depressão, autoconhecimento, relacionamentos e avaliação neuropsicológica.",
   url: "https://gabrielafiger.com.br",
   telephone: "+5511987788966",
   email: "gabriela.figer@gmail.com",
@@ -138,8 +144,8 @@ const medicalBusinessSchema = {
     },
     {
       "@type": "MedicalTherapy",
-      name: "Terapia de Casal",
-      description: "Acompanhamento terapêutico para casais com foco em comunicação, vínculos afetivos e resolução de conflitos.",
+      name: "Terapia para Relacionamentos",
+      description: "Acompanhamento terapêutico para quem deseja compreender e melhorar seus vínculos afetivos e dinâmicas relacionais.",
     },
     {
       "@type": "MedicalTest",
@@ -225,8 +231,11 @@ const personSchema = {
     "Terapia para Depressão",
     "Fenomenologia Existencial",
     "Psicanálise",
-    "Terapia de Casal",
+    "Problemas de Relacionamento",
     "Autoconhecimento",
+    "Autoestima",
+    "Regulação Emocional",
+    "Traumas",
     "Terapia Online",
   ],
   sameAs: [

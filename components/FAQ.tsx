@@ -6,7 +6,7 @@ const faqs = [
   {
     question: "Como funciona o atendimento psicológico online?",
     answer:
-      "O atendimento online acontece por videochamada em plataforma segura, com a mesma qualidade e sigilo do atendimento presencial. Você pode fazer a sessão de qualquer lugar, com total conforto e privacidade. A terapia online é regulamentada pelo Conselho Federal de Psicologia.",
+      "O atendimento online acontece por videochamada pelo Google Meet, com a mesma qualidade e sigilo do atendimento presencial. Você pode fazer a sessão de qualquer lugar, com total conforto e privacidade. A terapia online é regulamentada pelo Conselho Federal de Psicologia.",
   },
   {
     question: "Qual é a duração de uma sessão de terapia?",

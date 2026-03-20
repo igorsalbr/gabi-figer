@@ -1,6 +1,6 @@
 # Psicóloga Gabriela Figer — Informações Completas
 
-> Psicóloga clínica em São Paulo (CRP 06/216969). Formada pela PUC-SP com pós-graduação em Neuropsicologia pela USP. Atendimento online e presencial para ansiedade, depressão, autoconhecimento, terapia de casal e avaliação neuropsicológica.
+> Psicóloga clínica em São Paulo (CRP 06/216969). Formada pela PUC-SP e pós-graduanda em Neuropsicologia pela USP. Atendimento online para ansiedade, depressão, autoconhecimento, relacionamentos, traumas e avaliação neuropsicológica.
 
 ## Dados Profissionais
 
@@ -20,7 +20,7 @@
 - **Instituição**: Pontifícia Universidade Católica de São Paulo (PUC-SP)
 - **Ênfase**: Fenomenologia Existencial e Psicanálise
 
-### Pós-graduação
+### Pós-graduação (em andamento)
 - **Curso**: Neuropsicologia
 - **Instituição**: Universidade de São Paulo (USP) — Faculdade de Medicina
 - **Especialização**: Avaliação Neuropsicológica e Reabilitação Cognitiva
@@ -41,8 +41,23 @@ Suporte terapêutico para depressão, baixa autoestima, apatia e dificuldades em
 ### Autoconhecimento e Desenvolvimento Pessoal
 Processo terapêutico para compreender padrões emocionais, fortalecer a identidade e construir uma vida com mais propósito e equilíbrio.
 
-### Terapia de Casal e Relacionamentos
-Acompanhamento para casais e indivíduos que desejam melhorar vínculos afetivos, comunicação e dinâmicas relacionais.
+### Problemas de Relacionamento
+Acompanhamento para quem deseja compreender e melhorar seus vínculos afetivos, comunicação e dinâmicas relacionais.
+
+### Questões Profissionais e Acadêmicas
+Apoio para lidar com pressões do trabalho, escolhas de carreira, desempenho acadêmico e conflitos no ambiente profissional.
+
+### Autoestima
+Trabalho terapêutico para fortalecer a relação consigo mesma, reconhecer seu valor e desenvolver uma autoimagem mais saudável.
+
+### Sentimento de Vazio / Falta de Propósito
+Acolhimento para quem enfrenta desconexão ou sensação de vazio existencial, buscando novos sentidos para a vida.
+
+### Traumas
+Suporte terapêutico para a elaboração de experiências traumáticas, ajudando a ressignificar vivências e recuperar a sensação de segurança.
+
+### Regulação Emocional
+Desenvolvimento de recursos para identificar, compreender e lidar com emoções de forma mais equilibrada no dia a dia.
 
 ### Avaliação Neuropsicológica
 Avaliação das funções cognitivas (memória, atenção, linguagem, funções executivas). Indicada para diagnóstico diferencial, planejamento de reabilitação cognitiva e acompanhamento de condições neurológicas.
@@ -55,8 +70,7 @@ Acompanhamento acolhedor para a elaboração de perdas concretas ou simbólicas,
 
 ## Modalidades de Atendimento
 
-- **Online**: Sessões por videochamada em plataforma segura, regulamentadas pelo Conselho Federal de Psicologia. Disponível para pacientes em todo o Brasil.
-- **Presencial**: Atendimento em consultório na cidade de São Paulo, SP.
+- **Online**: Sessões por videochamada via Google Meet, regulamentadas pelo Conselho Federal de Psicologia. Disponível para pacientes em todo o Brasil.
 - **Duração da sessão**: 50 minutos
 - **Frequência recomendada**: Semanal (ajustável conforme necessidade)
 - **Valor**: Particular, com emissão de recibo para reembolso por plano de saúde
@@ -68,7 +82,7 @@ Gabriela produz conteúdo no Instagram conectando cinema e psicologia. Na série
 ## Perguntas Frequentes
 
 **Como funciona o atendimento psicológico online?**
-O atendimento online acontece por videochamada em plataforma segura, com a mesma qualidade e sigilo do atendimento presencial. A terapia online é regulamentada pelo Conselho Federal de Psicologia.
+O atendimento online acontece por videochamada pelo Google Meet, com a mesma qualidade e sigilo do atendimento presencial. A terapia online é regulamentada pelo Conselho Federal de Psicologia.
 
 **Preciso de encaminhamento médico para procurar uma psicóloga?**
 Não. Você pode agendar diretamente sua consulta sem necessidade de encaminhamento médico.

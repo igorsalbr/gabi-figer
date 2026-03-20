@@ -7,19 +7,34 @@ const specialties = [
       "Tratamento psicológico para ansiedade, crises de pânico e estresse. Estratégias para recuperar o equilíbrio emocional e a qualidade de vida.",
   },
   {
+    title: "Depressão",
+    description:
+      "Suporte terapêutico para depressão e dificuldades emocionais, com abordagem integrativa baseada em evidências.",
+  },
+  {
     title: "Autoconhecimento",
     description:
       "Processo terapêutico para compreender seus padrões emocionais, fortalecer sua identidade e construir uma vida com mais propósito.",
   },
   {
-    title: "Terapia de Casal",
+    title: "Problemas de Relacionamento",
     description:
-      "Acompanhamento para casais e pessoas que desejam melhorar seus vínculos afetivos, comunicação e dinâmicas relacionais.",
+      "Acompanhamento para quem deseja compreender e melhorar seus vínculos afetivos, comunicação e dinâmicas relacionais.",
   },
   {
-    title: "Avaliação Neuropsicológica",
+    title: "Questões Profissionais e Acadêmicas",
     description:
-      "Avaliação das funções cognitivas como memória, atenção e funções executivas. Diagnóstico e planejamento de reabilitação cognitiva.",
+      "Apoio para lidar com pressões do trabalho, escolhas de carreira, desempenho acadêmico e conflitos no ambiente profissional.",
+  },
+  {
+    title: "Autoestima",
+    description:
+      "Trabalho terapêutico para fortalecer a relação consigo mesma, reconhecer seu valor e desenvolver uma autoimagem mais saudável.",
+  },
+  {
+    title: "Sentimento de Vazio",
+    description:
+      "Acolhimento para quem enfrenta falta de propósito, desconexão ou sensação de vazio existencial — buscando novos sentidos para a vida.",
   },
   {
     title: "Luto e Perdas",
@@ -27,9 +42,19 @@ const specialties = [
       "Acompanhamento acolhedor para a elaboração de perdas — concretas ou simbólicas — respeitando o tempo de cada processo.",
   },
   {
-    title: "Depressão",
+    title: "Traumas",
     description:
-      "Suporte terapêutico para depressão, baixa autoestima e dificuldades emocionais, com abordagem integrativa baseada em evidências.",
+      "Suporte terapêutico para a elaboração de experiências traumáticas, ajudando a ressignificar vivências e recuperar a sensação de segurança.",
+  },
+  {
+    title: "Regulação Emocional",
+    description:
+      "Desenvolvimento de recursos para identificar, compreender e lidar com suas emoções de forma mais equilibrada no dia a dia.",
+  },
+  {
+    title: "Avaliação Neuropsicológica",
+    description:
+      "Avaliação das funções cognitivas como memória, atenção e funções executivas. Diagnóstico e planejamento de reabilitação cognitiva.",
   },
 ];
 

@@ -27,14 +27,19 @@ export default function Hero() {
           <div className="hero-text-enter-delay">
             <p className="text-lg md:text-xl text-brown-700/80 leading-relaxed mb-4 max-w-lg">
               <strong>Psicóloga em São Paulo</strong> com formação pela PUC-SP e
-              especialização em <strong>Neuropsicologia pela USP</strong>.
+              pós-graduanda em <strong>Neuropsicologia pela USP</strong>.
             </p>
             <p className="text-base text-brown-600/70 leading-relaxed mb-4 max-w-lg">
-              <strong>Atendimento online e presencial</strong> — um espaço seguro
-              para você se reconectar consigo mesma e encontrar novos caminhos.
+              <strong>Atendimento online</strong> — um espaço seguro para você se
+              expressar e encontrar novos sentidos.
+            </p>
+            <p className="text-sm text-brown-600/60 leading-relaxed mb-4 max-w-lg">
+              Orientada pela Fenomenologia e Psicanálise, atendo adolescentes e
+              adultos que buscam escuta atenta e acolhimento. Minha missão é
+              caminhar ao seu lado, ajudando a viver com mais leveza.
             </p>
             <p className="text-sm text-brown-500/60 mb-10 max-w-lg">
-              Ansiedade &middot; Depressão &middot; Autoconhecimento &middot; Terapia de casal &middot; Avaliação neuropsicológica
+              Ansiedade &middot; Depressão &middot; Autoconhecimento &middot; Relacionamentos &middot; Avaliação neuropsicológica
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
