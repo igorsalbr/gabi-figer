@@ -133,7 +133,7 @@ const medicalBusinessSchema = {
   telephone: "+5511987788966",
   email: "gabriela.figer@gmail.com",
   priceRange: "$$",
-  image: "https://gabrielafiger.com.br/gabi_final.png",
+  image: "https://gabrielafiger.com.br/final.png",
   currenciesAccepted: "BRL",
   paymentAccepted: "Dinheiro, PIX, Cartão de Crédito",
   medicalSpecialty: ["Psychiatry"],
@@ -197,7 +197,7 @@ const personSchema = {
   description:
     "Psicóloga clínica em São Paulo (CRP 06/216969), formada pela PUC-SP com pós-graduação em Neuropsicologia pela USP. Especialista em ansiedade, autoconhecimento e avaliação neuropsicológica.",
   url: "https://gabrielafiger.com.br",
-  image: "https://gabrielafiger.com.br/gabi_final.png",
+  image: "https://gabrielafiger.com.br/final.png",
   telephone: "+5511987788966",
   email: "gabriela.figer@gmail.com",
   worksFor: {
