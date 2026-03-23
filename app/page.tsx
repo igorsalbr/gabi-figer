@@ -5,7 +5,7 @@ import About from "@/components/About";
 import Specialties from "@/components/Specialties";
 import Education from "@/components/Education";
 import CinePsique from "@/components/CinePsique";
-// import Testimonials from "@/components/Testimonials";
+import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
 import CTA from "@/components/CTA";
 import CoffeeScroll from "@/components/CoffeeScroll";
@@ -25,8 +25,8 @@ export default function Home() {
         <WaveDivider from="#f0e4d5" to="#2a1e14" />
         <CinePsique />
         <WaveDivider from="#2a1e14" to="#f0e4d5" flip />
-        {/* <Testimonials /> */}
-        {/* <WaveDivider from="#fefcf9" to="#f0e4d5" /> */}
+        <Testimonials />
+        <WaveDivider from="#fefcf9" to="#f0e4d5" />
         <FAQ />
         <WaveDivider from="#f0e4d5" to="#3e2d1f" />
       </main>

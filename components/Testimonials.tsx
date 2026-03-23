@@ -1,18 +1,12 @@
 const testimonials = [
   {
-    text: "A Gabriela me ajudou a enxergar caminhos que eu não conseguia ver sozinha. O espaço da terapia se tornou um lugar de acolhimento verdadeiro, onde me sinto segura para ser quem sou.",
-    author: "M.S.",
-    detail: "Paciente há 1 ano",
+    text: "É a primeira vez que consegui me abrir de verdade para uma psicóloga, o ambiente que ela cria proporciona isso.",
   },
   {
-    text: "Encontrei na Gabi uma profissional que realmente escuta. A terapia transformou minha forma de lidar com a ansiedade e me deu ferramentas para o dia a dia.",
-    author: "A.R.",
-    detail: "Paciente há 2 anos",
+    text: "Desde que faço os atendimentos com ela senti muita coisa mudando na minha percepção comigo mesma, até pessoas de fora já comentaram sobre como eu mudei.",
   },
   {
-    text: "O processo terapêutico com a Gabriela mudou minha relação comigo mesma. Aprendi a me respeitar, estabelecer limites saudáveis e viver com mais leveza.",
-    author: "L.C.",
-    detail: "Paciente há 6 meses",
+    text: "Me sinto muito à vontade em compartilhar minhas questões com Dra. Gabriela. Ela proporciona um espaço seguro e importante para mim.",
   },
 ];
 
@@ -32,25 +26,17 @@ export default function Testimonials() {
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
-          {testimonials.map((item) => (
+          {testimonials.map((item, index) => (
             <article
-              key={item.author}
+              key={index}
               className="bg-cream-100 rounded-2xl p-6 sm:p-8 border border-brown-100"
             >
               <span className="font-display text-6xl text-brown-200 leading-none block mb-4">&ldquo;</span>
               <blockquote>
-                <p className="text-brown-700 leading-relaxed mb-8 -mt-4">
+                <p className="text-brown-700 leading-relaxed -mt-4">
                   {item.text}
                 </p>
               </blockquote>
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-brown-200 flex items-center justify-center">
-                  <span className="font-display text-sm text-brown-600 font-semibold">
-                    {item.author}
-                  </span>
-                </div>
-                <p className="text-brown-400 text-sm">{item.detail}</p>
-              </div>
             </article>
           ))}
         </div>

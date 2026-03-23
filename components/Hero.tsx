@@ -45,7 +45,7 @@ export default function Hero() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="https://linktr.ee/psi.gabrielafiger"
+                href={`https://wa.me/5511987788966?text=${encodeURIComponent("Olá, Gabriela! Gostaria de agendar uma consulta.")}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-8 py-4 bg-brown-800 text-cream-100 rounded-full font-medium hover:bg-brown-900 transition-colors duration-300 tracking-wide"
