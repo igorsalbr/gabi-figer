@@ -1,4 +1,5 @@
 import Image from "next/image";
+import WhatsAppLink, { WhatsAppIcon } from "./WhatsAppLink";
 
 export default function Hero() {
   return (
@@ -44,14 +45,14 @@ export default function Hero() {
               Relacionamentos &middot; Avaliação neuropsicológica
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a
-                href={`https://wa.me/5511987788966?text=${encodeURIComponent("Olá, Gabriela! Gostaria de agendar uma consulta.")}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center px-8 py-4 bg-brown-800 text-cream-100 rounded-full font-medium hover:bg-brown-900 transition-colors duration-300 tracking-wide"
+              <WhatsAppLink
+                source="hero"
+                ariaLabel="Agendar consulta pelo WhatsApp"
+                className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-brown-800 text-cream-100 rounded-full font-medium hover:bg-brown-900 transition-colors duration-300 tracking-wide"
               >
-                Agendar consulta
-              </a>
+                <WhatsAppIcon className="w-5 h-5" />
+                Agendar pelo WhatsApp
+              </WhatsAppLink>
               <a
                 href="#sobre"
                 className="inline-flex items-center justify-center px-8 py-4 border-2 border-brown-300 text-brown-700 rounded-full font-medium hover:bg-brown-50 transition-colors duration-300 tracking-wide"
@@ -59,6 +60,9 @@ export default function Hero() {
                 Saiba mais
               </a>
             </div>
+            <p className="text-xs text-brown-500/60 mt-4">
+              Resposta direta da Gabriela &middot; sem compromisso
+            </p>
           </div>
         </div>
 
