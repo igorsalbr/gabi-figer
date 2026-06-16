@@ -1,15 +1,23 @@
 const testimonials = [
   {
     text: "É a primeira vez que consegui me abrir de verdade para uma psicóloga, o ambiente que ela cria proporciona isso.",
+    author: "Homem, 37 anos",
   },
   {
     text: "Desde que faço os atendimentos com ela senti muita coisa mudando na minha percepção comigo mesma, até pessoas de fora já comentaram sobre como eu mudei.",
+    author: "Mulher, 26 anos",
   },
   {
-    text: "Me sinto muito à vontade em compartilhar minhas questões com Dra. Gabriela. Ela proporciona um espaço seguro e importante para mim.",
+    text: "Me sinto muito à vontade em compartilhar minhas questões com a Gabriela. Ela proporciona um espaço seguro e importante pra mim.",
+    author: "Homem, 29 anos",
   },
   {
-    text: "Queria te agradecer pela sessão de ontem. Foi muito bom e importante pra mim poder falar e me expressar, saí me sentindo mais leve e feliz. Obrigada pela escuta e pelo cuidado sempre🤍",
+    text: "Queria te agradecer pela sessão de ontem. Foi muito bom e importante pra mim poder falar e me expressar, saí me sentindo mais leve e feliz. Obrigada pela escuta e pelo cuidado sempre 🤍",
+    author: "Menina, 16 anos",
+  },
+  {
+    text: "Eu tinha dificuldade de concentração há anos e não sabia bem o que estava acontecendo. A avaliação neuropsicológica com a Gabriela foi o que finalmente me deu clareza — entendi como minha mente funciona e o que fazer a partir disso.",
+    author: "Mulher, 34 anos",
   },
 ];
 
@@ -39,6 +47,9 @@ export default function Testimonials() {
                 <p className="text-brown-700 leading-relaxed -mt-4">
                   {item.text}
                 </p>
+                <footer className="mt-4 text-sm text-brown-500/70">
+                  — {item.author}
+                </footer>
               </blockquote>
             </article>
           ))}

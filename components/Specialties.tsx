@@ -2,59 +2,59 @@
 
 const specialties = [
   {
-    title: "Terapia para Ansiedade",
+    title: "Ansiedade",
     description:
-      "Tratamento psicológico para ansiedade, crises de pânico e estresse. Estratégias para recuperar o equilíbrio emocional e a qualidade de vida.",
+      "Trabalho com pessoas que vivem sob tensão constante, crises de ansiedade e dificuldade de desacelerar. Juntos, buscamos formas de recuperar o equilíbrio emocional e a qualidade de vida.",
   },
   {
     title: "Depressão",
     description:
-      "Suporte terapêutico para depressão e dificuldades emocionais, com abordagem integrativa baseada em evidências.",
+      "Acompanho pessoas que estão atravessando momentos de muita dor, vazio ou desânimo. Ofereço um espaço seguro para que esse sofrimento possa ser acolhido e elaborado.",
   },
   {
     title: "Autoconhecimento",
     description:
-      "Processo terapêutico para compreender seus padrões emocionais, fortalecer sua identidade e construir uma vida com mais propósito.",
+      "Ajudo você a compreender seus padrões emocionais, fortalecer sua identidade e construir uma vida com mais sentido — no seu ritmo, sem pressa.",
   },
   {
     title: "Problemas de Relacionamento",
     description:
-      "Acompanhamento para quem deseja compreender e melhorar seus vínculos afetivos, comunicação e dinâmicas relacionais.",
+      "Trabalho com quem deseja entender melhor seus vínculos afetivos, sua forma de se comunicar e os padrões que se repetem nas relações.",
   },
   {
     title: "Questões Profissionais e Acadêmicas",
     description:
-      "Apoio para lidar com pressões do trabalho, escolhas de carreira, desempenho acadêmico e conflitos no ambiente profissional.",
+      "Acompanho pessoas que enfrentam pressão no trabalho, dificuldades acadêmicas, dúvidas sobre carreira ou conflitos no ambiente profissional.",
   },
   {
     title: "Autoestima",
     description:
-      "Trabalho terapêutico para fortalecer a relação consigo mesmo(a), reconhecer seu valor e desenvolver uma autoimagem mais saudável.",
+      "Trabalho com quem quer fortalecer a relação consigo mesmo, reconhecer seu valor e desenvolver uma autoimagem mais honesta e gentil.",
   },
   {
     title: "Sentimento de Vazio",
     description:
-      "Acolhimento para quem enfrenta falta de propósito, desconexão ou sensação de vazio existencial — buscando novos sentidos para a vida.",
+      "Acolho quem enfrenta falta de propósito, desconexão ou aquela sensação difícil de nomear — e que, juntos, tentamos transformar em novos sentidos.",
   },
   {
     title: "Luto e Perdas",
     description:
-      "Acompanhamento acolhedor para a elaboração de perdas — concretas ou simbólicas — respeitando o tempo de cada processo.",
+      "Acompanho processos de luto — concretos ou simbólicos — com cuidado e sem pressa. Cada perda tem seu tempo, e estou aqui para caminhar ao seu lado nesse processo.",
   },
   {
     title: "Traumas",
     description:
-      "Suporte terapêutico para a elaboração de experiências traumáticas, ajudando a ressignificar vivências e recuperar a sensação de segurança.",
+      "Trabalho com a elaboração de experiências traumáticas, ajudando a ressignificar o que foi vivido e a recuperar a sensação de segurança no próprio corpo e na própria história.",
   },
   {
     title: "Regulação Emocional",
     description:
-      "Desenvolvimento de recursos para identificar, compreender e lidar com suas emoções de forma mais equilibrada no dia a dia.",
+      "Ajudo você a identificar, compreender e lidar com suas emoções de forma mais equilibrada — desenvolvendo recursos que fazem diferença no dia a dia.",
   },
   {
     title: "Avaliação Neuropsicológica",
     description:
-      "Avaliação das funções cognitivas como memória, atenção e funções executivas. Diagnóstico e planejamento de reabilitação cognitiva.",
+      "Realizo avaliações das funções cognitivas — memória, atenção, linguagem e funções executivas — com diagnóstico detalhado e, quando necessário, um plano de reabilitação cognitiva individualizado.",
   },
 ];
 

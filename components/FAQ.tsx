@@ -31,7 +31,7 @@ const faqs = [
   {
     question: "A psicóloga atende por plano de saúde?",
     answer:
-      "Atualmente, o atendimento é particular. Após a sessão, emito recibo para que você solicite reembolso junto ao seu plano de saúde, caso ele ofereça essa opção.",
+      "Trabalho de forma particular. Essa escolha garante total sigilo, continuidade do processo e uma relação terapêutica sem interferências externas — onde o único foco é você e o seu processo.",
   },
 ];
 

@@ -4,7 +4,7 @@ const timeline = [
     title: "Neuropsicologia",
     institution: "Universidade de São Paulo (USP)",
     description:
-      "Especialização em avaliação neuropsicológica e reabilitação cognitiva, com atuação no Hospital das Clínicas da Faculdade de Medicina da USP.",
+      "Me especializo em avaliação neuropsicológica e reabilitação cognitiva, com atuação no Hospital das Clínicas da FMUSP.",
   },
   {
     period: "Graduação",

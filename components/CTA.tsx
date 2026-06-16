@@ -18,8 +18,8 @@ export default function CTA() {
         </h2>
         <p className="text-cream-300/80 text-lg mb-10 max-w-2xl mx-auto leading-relaxed">
           Mande uma mensagem no <strong>WhatsApp</strong> e agende sua{" "}
-          <strong>consulta psicológica</strong>. A Gabriela responde
-          pessoalmente, sem compromisso.
+          <strong>consulta psicológica</strong>. Eu mesma respondo — pode falar
+          à vontade.
         </p>
 
         <div className="flex flex-col items-center gap-4 mb-16">

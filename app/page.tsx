@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import WaveDivider from "@/components/WaveDivider";
 import About from "@/components/About";
 import Specialties from "@/components/Specialties";
+import NeuropsychSection from "@/components/NeuropsychSection";
 import Education from "@/components/Education";
 import CinePsique from "@/components/CinePsique";
 import Testimonials from "@/components/Testimonials";
@@ -20,7 +21,9 @@ export default function Home() {
         <About />
         <WaveDivider from="#fefcf9" to="#3e2d1f" />
         <Specialties />
-        <WaveDivider from="#3e2d1f" to="#f0e4d5" flip />
+        <WaveDivider from="#3e2d1f" to="#fefcf9" flip />
+        <NeuropsychSection />
+        <WaveDivider from="#fefcf9" to="#f0e4d5" />
         <Education />
         <WaveDivider from="#f0e4d5" to="#2a1e14" />
         <CinePsique />

@@ -27,8 +27,9 @@ export default function Hero() {
           </div>
           <div className="hero-text-enter-delay">
             <p className="text-lg md:text-xl text-brown-700/80 leading-relaxed mb-4 max-w-lg">
-              <strong>Psicóloga em São Paulo</strong> com formação pela PUC-SP e
-              pós-graduanda em <strong>Neuropsicologia pela USP</strong>.
+              Sou psicóloga clínica com formação pela PUC-SP e pós-graduanda em{" "}
+              <strong>Neuropsicologia pelo Hospital das Clínicas da USP</strong>{" "}
+              — onde clínica e neurociência se encontram.
             </p>
             <p className="text-base text-brown-600/70 leading-relaxed mb-4 max-w-lg">
               <strong>Atendimento online</strong> — um espaço seguro para você
@@ -61,7 +62,7 @@ export default function Hero() {
               </a>
             </div>
             <p className="text-xs text-brown-500/60 mt-4">
-              Resposta direta da Gabriela &middot; sem compromisso
+              Respondo pessoalmente &middot; sem compromisso
             </p>
           </div>
         </div>

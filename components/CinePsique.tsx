@@ -21,15 +21,20 @@ export default function CinePsique() {
               <br />
               <span className="italic font-normal text-cream-300">Psiquê</span>
             </h2>
-            <p className="text-cream-300/80 leading-relaxed mb-6 text-lg">
-              Cinema e arte são ferramentas poderosas de autoconhecimento.
-              No <strong>Luz Câmera Psiquê</strong>, analiso filmes sob a ótica
-              da psicologia — explorando temas como identidade, relacionamentos,
-              luto e saúde mental.
+            <p className="text-cream-300/80 leading-relaxed mb-4 text-lg">
+              Cinema e arte são, para mim, muito mais do que entretenimento —
+              são formas de acessar o que às vezes não conseguimos colocar em
+              palavras. No <strong>Luz, Câmera, Psiquê</strong>, analiso filmes
+              sob a ótica da psicologia, explorando temas como identidade, luto,
+              relacionamentos e saúde mental.
+            </p>
+            <p className="text-cream-400/60 leading-relaxed mb-4">
+              Esse olhar não fica só no Instagram. Ele entra comigo para dentro
+              da clínica — porque acredito que o que nos move numa tela muitas
+              vezes diz algo profundo sobre quem somos.
             </p>
             <p className="text-cream-400/60 leading-relaxed mb-8">
-              Acompanhe no Instagram para reflexões que conectam a sétima arte
-              com a jornada de cada um de nós.
+              Acompanhe e venha pensar comigo.
             </p>
             <a
               href="https://instagram.com/psi.gabrielafiger"
