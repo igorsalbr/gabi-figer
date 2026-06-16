@@ -37,7 +37,7 @@ export default function About() {
 
           <article className="md:col-span-3 space-y-6">
             <p className="text-brown-800 leading-relaxed text-lg">
-              Sou a <strong>Gabriela Figer</strong>,{" "}
+              Meu nome é <strong>Gabriela Figer</strong>, sou{" "}
               <strong>psicóloga clínica</strong> (CRP 06/216969), formada pela{" "}
               <strong>PUC-SP</strong> e pós-graduanda em{" "}
               <strong>Neuropsicologia pela USP</strong>, com formação em
