@@ -8,6 +8,9 @@ const testimonials = [
   {
     text: "Me sinto muito à vontade em compartilhar minhas questões com Dra. Gabriela. Ela proporciona um espaço seguro e importante para mim.",
   },
+  {
+    text: "Queria te agradecer pela sessão de ontem. Foi muito bom e importante pra mim poder falar e me expressar, saí me sentindo mais leve e feliz. Obrigada pela escuta e pelo cuidado sempre🤍",
+  },
 ];
 
 export default function Testimonials() {
@@ -25,7 +28,7 @@ export default function Testimonials() {
           <div className="w-12 h-px bg-brown-300 mx-auto" />
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
           {testimonials.map((item, index) => (
             <article
               key={index}
